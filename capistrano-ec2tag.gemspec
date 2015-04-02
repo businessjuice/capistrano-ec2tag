@@ -18,6 +18,6 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ['lib']
 
-  s.add_dependency 'capistrano', '=2.15.5'
+  s.add_dependency 'capistrano', '~> 3.4.0'
   s.add_dependency 'aws-sdk', '~> 2'
 end
